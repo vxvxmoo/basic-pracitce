@@ -14,7 +14,7 @@ export default function MenuSticker({ is }) {
 
   return (
     <div className="sticker">
-      <img className="stickerPhoto" src={src} alt={alt}></img>
+      <img className="sticker-photo" src={src} alt={alt}></img>
     </div>
   );
 }

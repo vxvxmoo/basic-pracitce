@@ -10,7 +10,7 @@ export default function AppMenu() {
     <>
       <button onClick={handleClick}>button</button>
       <div className="list">
-        <div className="menuList">
+        <div className="menu-list">
           <Menu
             image="https://www.yupdduk.com/images/menu/2020_hotmenuY01.png"
             name="엽기메뉴"
