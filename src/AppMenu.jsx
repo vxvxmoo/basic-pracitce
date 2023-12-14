@@ -2,13 +2,8 @@ import React from "react";
 import Menu from "./component/Menu";
 
 export default function AppMenu() {
-  const handleClick = (e) => {
-    console.log(e);
-    alert("집가고싶어여~~~~~~~~~~");
-  };
   return (
     <>
-      <button onClick={handleClick}>button</button>
       <div className="list">
         <div className="menu-list">
           <Menu

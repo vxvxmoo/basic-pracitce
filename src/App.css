@@ -45,16 +45,18 @@
 
 .section-emotion {
   display: flex;
+  justify-content: center;
 }
 
 .section-count {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   text-align: center;
-  line-height: 50px;
+  line-height: 40px;
+  font-size: 20px;
 }
 
 .section-thumb {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 }

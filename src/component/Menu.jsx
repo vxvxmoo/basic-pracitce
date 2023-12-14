@@ -10,8 +10,8 @@ export default function Menu({ image, name, price, is }) {
         <h1>{name}</h1>
         <p>{price}원</p>
         <MenuSticker is={is} />
+        <MenuLike />
       </div>
-      <MenuLike />
     </>
   );
 }
